@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://razfridman1999.github.io/israel-junior-open-2027/sitemap.xml
