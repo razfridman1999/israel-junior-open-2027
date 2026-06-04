@@ -40,7 +40,7 @@
   --cream:       #f7f4ef;
   --off-white:   #f3f6fb;
   --gray-light:  #e4ecf5;
-  --gray:        #6e84a3;
+  --gray:        #5b6a80;
   --text:        #0c1e38;
   --display:     'Cormorant Garamond', Georgia, serif;
   --ui:          'Outfit', system-ui, sans-serif;
@@ -877,3 +877,10 @@ footer {
   border: 3px solid rgba(255,255,255,0.08);
   mix-blend-mode: screen;
 }
+
+/* ── Accessibility: WCAG 2.0 AA text contrast (≥4.5:1) ───────────── */
+/* Darker cyan for small label text on light backgrounds */
+.sec-eyebrow, .card-label, .fact-label, .pkg-type, .mr-label,
+.contact-card-label, .ql-arrow, .header-logo-text .sub { color: #00708f; }
+/* Brighter muted text on the dark footer */
+.footer-brand p, .footer-fed-label, .footer-copy, .footer-bdg { color: rgba(255,255,255,0.62); }
