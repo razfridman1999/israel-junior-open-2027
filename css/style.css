@@ -797,10 +797,8 @@ footer {
   margin-bottom: 1rem; flex-wrap: wrap;
 }
 .footer-logos img:first-child {
-  height: 44px; width: auto;
-  background: #fff; padding: 7px 11px; border-radius: 8px;
-  box-sizing: content-box;
-  filter: none; opacity: 1;
+  height: 50px; width: auto;
+  filter: none; opacity: 0.9;
 }
 
 /* Make sure page-hero has position:relative for absolute badge */
