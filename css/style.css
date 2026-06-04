@@ -800,6 +800,7 @@ footer {
   height: 44px; width: auto;
   background: #fff; padding: 7px 11px; border-radius: 8px;
   box-sizing: content-box;
+  filter: none; opacity: 1;
 }
 
 /* Make sure page-hero has position:relative for absolute badge */
