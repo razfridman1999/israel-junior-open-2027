@@ -724,7 +724,10 @@ footer {
   nav ul.open { display: flex; }
   nav ul li a { padding: 0.75rem 1rem; font-size: 0.82rem; }
   .nav-toggle { display: flex; }
-  .nav-cta { font-size: 0.65rem; padding: 0.5rem 1rem; }
+  .nav-cta { display: none; }
+  .header-logo img { height: 40px; }
+  .header-logo-text .name { font-size: 0.8rem; letter-spacing: 0.02em; }
+  .header-logo-text .sub { font-size: 0.52rem; letter-spacing: 0.1em; }
   .has-dropdown.mobile-open > ul {
     display: flex !important; position: static;
     box-shadow: none; border-top: none; border-radius: 0;
@@ -738,11 +741,19 @@ footer {
   .home-strip-inner { grid-template-columns: repeat(2, 1fr); }
   .footer-top { flex-direction: column; gap: 2rem; padding: 2.5rem 1.25rem; }
   .footer-bottom { padding: 1rem 1.25rem; flex-direction: column; text-align: center; }
-  .countdown { gap: 0.5rem; }
-  .cd-num { min-width: 64px; font-size: 2rem; padding: 0.5rem; }
   .pkg-grid { grid-template-columns: 1fr; }
-  .home-hero-meta { gap: 1.25rem; }
+  .home-hero-content { padding: 1.5rem 1rem; max-width: 100%; }
+  .home-hero-esf {
+    white-space: normal; max-width: 100%; line-height: 1.6;
+    font-size: 0.55rem; letter-spacing: 0.16em; padding: 0.4rem 0.9rem;
+  }
+  .home-hero-meta { gap: 1rem 1.25rem; }
+  .hm-item { flex: 0 0 40%; }
+  .hm-label { letter-spacing: 0.14em; }
   .hm-div { display: none; }
+  .countdown { flex-wrap: wrap; gap: 0.4rem; }
+  .cd-num { min-width: 58px; font-size: 1.85rem; padding: 0.45rem 0.35rem; }
+  .cd-sep { display: none; }
   .page-hero { padding: 2.5rem 1.25rem 2rem; }
   .page-hero-inner { flex-direction: column; gap: 1rem; }
   .entry-banner { flex-direction: column; }
