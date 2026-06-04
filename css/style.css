@@ -826,6 +826,20 @@ footer {
   background: rgba(255,255,255,0.05);
 }
 
+/* Footer — Israel Squash Association links */
+.footer-fed { margin-top: 1.5rem; }
+.footer-fed-label { display: block; font-size: 0.6rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 0.6rem; }
+.footer-fed-links { display: flex; gap: 0.6rem; }
+.footer-fed-links a {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.15); background: rgba(255,255,255,0.04);
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+}
+.footer-fed-links a:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.3); transform: translateY(-1px); }
+.footer-fed-links img { width: 16px; height: 16px; opacity: 0.8; }
+.footer-fed-links a:hover img { opacity: 1; }
+
 .hero-instagram img { opacity: 0.75; transition: opacity 0.2s; }
 .hero-instagram span { font-weight: 400; }
 .hero-instagram strong { font-weight: 700; color: var(--white); }
